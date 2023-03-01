@@ -3,6 +3,8 @@ package Projeto001AulasSintaxeJava.src;
 public class TipoVariaveis {
     
     public static void main(String [] args) throws Exception{
+    
+    /*
     byte idade = 27;
     short ano = 2023;
     int cep = 53401150;
@@ -13,6 +15,7 @@ public class TipoVariaveis {
     short numeroCurto = 1;
     int numeroNormal = numeroCurto;
     short numeroCurto2 = (short) numeroNormal;
+    */
 
     int numero = 5;
     numero = 10;
