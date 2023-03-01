@@ -12,12 +12,6 @@ public class MinhaClasse {
 
         System.out.println(nomeCompleto);
 
-        int anoNascimento = 1996;
-
-        boolean verdadeira = false;
-
-        anoNascimento = 2000;
-
     }
 
     public static String nomeCompleto (String primeironNome, String segundoNome){
