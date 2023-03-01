@@ -8,3 +8,4 @@
 6ª - Aprofundando os tipos e convenções de entradas da segunda aula.
 7º - Criando um repositório no GitHub e sicronizando com o VS Code.
 8ª - Testando alguns tipos de variáveis.
+9ª - Testando algumas operações com operadores.
