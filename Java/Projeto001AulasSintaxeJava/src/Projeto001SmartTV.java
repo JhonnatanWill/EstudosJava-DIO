@@ -9,6 +9,10 @@ public class Projeto001SmartTV {
         ligada=true;
     }
 
+    public void desligar(){
+        ligada=false;
+    }
+
     public void aumentarVolume(){
         volume = volume + 1;
         ++volume;
@@ -23,15 +27,12 @@ public class Projeto001SmartTV {
         ++volume;
     }
 
-    public void mudarCanal(int novoCanal){
-        canal = novoCanal;
-    }
-
     public void anteriorCanal(){
         canal = canal - 1;
     }
-    public void desligar(){
-        ligada=false;
+
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
     }
 
 }
