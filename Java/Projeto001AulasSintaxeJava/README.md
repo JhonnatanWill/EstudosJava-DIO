@@ -10,3 +10,4 @@
 8ª - Testando alguns tipos de variáveis.
 9ª - Testando algumas operações com operadores.
 10ª - Acrescentado operadores com valores booleano.
+11ª - Criado um sistema simulando uma SmartTV e usando operações que foram aprendidas.
