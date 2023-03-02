@@ -9,3 +9,4 @@
 7º - Criando um repositório no GitHub e sicronizando com o VS Code.
 8ª - Testando alguns tipos de variáveis.
 9ª - Testando algumas operações com operadores.
+10ª - Acrescentado operadores com valores booleano.
