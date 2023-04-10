@@ -71,7 +71,7 @@ public class TipoOperadores {
     int numero02 = 2;
     if(numero01 < numero02){
         System.out.println("A nossa condição é verdadeira!");}
-        else{
+    else{
         System.out.println("A nossa condição é Falsa!");
     }
 
