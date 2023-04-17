@@ -1,4 +1,4 @@
-package Projeto001AulasSintaxeJava.src;
+package Parte001SintaxeJava.src;
 
 public class TipoOperadores {
     

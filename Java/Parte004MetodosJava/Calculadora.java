@@ -1,4 +1,4 @@
-package Projeto004MetodosJava;
+package Parte004MetodosJava;
 
 public class Calculadora {
     

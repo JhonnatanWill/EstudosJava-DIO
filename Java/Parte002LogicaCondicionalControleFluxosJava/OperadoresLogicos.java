@@ -1,4 +1,4 @@
-package Projeto002LogicaCondicionalControleFluxosJava;
+package Parte002LogicaCondicionalControleFluxosJava;
 
 public class OperadoresLogicos {
      
