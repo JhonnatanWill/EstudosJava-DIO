@@ -11,6 +11,7 @@ dinheiro que ele terá em X meses. */
 import java.util.Scanner;
 
 public class MesadaDoSobrinho {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
 
         Scanner leitor = new Scanner(System.in);

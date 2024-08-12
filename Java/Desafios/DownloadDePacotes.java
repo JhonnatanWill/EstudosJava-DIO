@@ -13,33 +13,33 @@ import java.util.Scanner;
 public class DownloadDePacotes {
     public static void main(String[] args) {
 
-        Scanner leitor = new Scanner(System.in);
-        
-        System.out.println("Quantos porcento?");
-        int tamanho = leitor.nextInt();
+        try (Scanner leitor = new Scanner(System.in)) {
+            System.out.println("Quantos porcento?");
+            int tamanho = leitor.nextInt();
 
-        if (tamanho == 1) {
-            System.out.println("/");
-        } else if (tamanho == 2) {
-            System.out.println("//");
-        } else if (tamanho == 3) {
-            System.out.println("///");
-        } else if (tamanho == 4) {
-            System.out.println("////");
-        } else if (tamanho == 5) {
-            System.out.println("/////");
-        } else if (tamanho == 6) {
-            System.out.println("//////");
-        } else if (tamanho == 7) {
-            System.out.println("///////");
-        } else if (tamanho == 8) {
-            System.out.println("////////");
-        } else if (tamanho == 9) {
-            System.out.println("/////////");
-        } else if (tamanho == 10) {
-            System.out.println("//////////");
-        } else {
-            System.out.println("Porcentagem inválida!");
+            if (tamanho == 1) {
+                System.out.println("/");
+            } else if (tamanho == 2) {
+                System.out.println("//");
+            } else if (tamanho == 3) {
+                System.out.println("///");
+            } else if (tamanho == 4) {
+                System.out.println("////");
+            } else if (tamanho == 5) {
+                System.out.println("/////");
+            } else if (tamanho == 6) {
+                System.out.println("//////");
+            } else if (tamanho == 7) {
+                System.out.println("///////");
+            } else if (tamanho == 8) {
+                System.out.println("////////");
+            } else if (tamanho == 9) {
+                System.out.println("/////////");
+            } else if (tamanho == 10) {
+                System.out.println("//////////");
+            } else {
+                System.out.println("Porcentagem inválida!");
+            }
         }
 
         // TODO: Crie a condição necessária para que o sobrinho saiba quanto dinheiro irá juntar nos meses da entrada

@@ -10,6 +10,7 @@ dois doces aleatórios. Cada 1 real irá render 2 doces aleatórios. */
 import java.util.Scanner;
 
 public class LojinhaDeDoces {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         int dinheiro = leitor.nextInt();

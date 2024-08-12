@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 public class IndustriaDaMulta {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner leitor = new Scanner(System.in);
         int velocidadeAtual = leitor.nextInt();
         
