@@ -32,7 +32,7 @@ public class TipoOperadores {
     numero = numero + 1;
     System.out.println(numero);
 
-    //numero = --numero; //Usando esse -- antes da variável, ela é diminuita em 1.
+    //numero = --numero; //Usando esse -- antes da variável, ela é diminuida em 1.
     System.out.println(numero);
     System.out.println(-- numero);
 
