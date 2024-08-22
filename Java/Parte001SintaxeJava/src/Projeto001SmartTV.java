@@ -14,7 +14,7 @@ public class Projeto001SmartTV {
     }
 
     public void aumentarVolume(){
-        volume = volume + 1;
+        //volume = volume + 1;
         ++volume;
     }
 
@@ -24,7 +24,6 @@ public class Projeto001SmartTV {
 
     public void próximoCanal(){
         canal = canal + 1;
-        ++volume;
     }
 
     public void anteriorCanal(){
