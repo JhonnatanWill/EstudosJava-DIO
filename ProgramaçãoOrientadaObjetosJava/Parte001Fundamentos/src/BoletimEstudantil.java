@@ -1,4 +1,4 @@
-package Parte001SintaxeJava.src;
+package Parte001Fundamentos.src;
 
 public class BoletimEstudantil {
     
