@@ -17,6 +17,7 @@ espaço em branco antes e depois da igualdade.
 
 public class MultiplicaçãoSimples {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
 		int A, B, PROD;
@@ -26,8 +27,8 @@ public class MultiplicaçãoSimples {
         
         System.out.println("Qual o valor B? ");
 		B = sc.nextInt();
-		 //TODO: Complete os espaços em branco com uma possível solução para o desafio 
-        PROD = A * B;
+
+		PROD = A * B;
 
 		System.out.println("PROD = " + PROD);
 	}
