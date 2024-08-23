@@ -1,7 +1,5 @@
 package Desafios.src;
 
-import java.util.Scanner;
-
 /*
 Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o 
 produto entre estes dois valores. Atribua esta operação à variável PROD, 
@@ -15,9 +13,11 @@ Exiba a variável PROD conforme exemplo abaixo, tendo obrigatoriamente um
 espaço em branco antes e depois da igualdade.
 */
 
+import java.util.Scanner;
+
 public class MultiplicaçãoSimples {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
 		int A, B, PROD;
@@ -28,6 +28,8 @@ public class MultiplicaçãoSimples {
         System.out.println("Qual o valor B? ");
 		B = sc.nextInt();
 
+		//TODO: Complete os espaços em branco com uma possível solução para o desafio 
+        
 		PROD = A * B;
 
 		System.out.println("PROD = " + PROD);

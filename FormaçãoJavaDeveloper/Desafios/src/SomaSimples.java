@@ -1,7 +1,5 @@
 package Desafios.src;
 
-import java.util.Scanner;
-
 /*
 Desafio
 Leia dois valores inteiros identificados como variáveis A e B. Calcule a 
@@ -17,17 +15,20 @@ espaço em branco antes e depois do símbolo de igualdade, seguido pelo
 valor correspondente à soma de A e B.
 */
 
-public class SomaSimples {
+import java.util.Scanner;
 
+public class SomaSimples {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-	 	@SuppressWarnings("resource")
-		Scanner sc = new Scanner (System.in);
+	 	Scanner sc = new Scanner (System.in);
  
 		int A, B, soma;
  
  		A = sc.nextInt();
 		B = sc.nextInt();
 
+ 		//TODO: Complete os espaços em branco com uma possível solução para o desafio 
+ 		
 		soma = A + B;  
  
  		System.out.println("SOMA = " + soma );

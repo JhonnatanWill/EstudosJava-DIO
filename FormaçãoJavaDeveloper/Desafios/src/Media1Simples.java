@@ -1,7 +1,5 @@
 package Desafios.src;
 
-import java.util.Scanner;
-
 /*
 Desafio
 Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem 
@@ -20,15 +18,19 @@ não esqueça de imprimir o fim de linha após o resultado, caso contrário,
 você receberá "Presentation Error".
 */
 
+import java.util.Scanner;
+
 public class Media1Simples {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         double A, B, media;
 
         A = sc.nextDouble();
         B = sc.nextDouble();
+        
+        //TODO: Complete os espaços em branco com uma possível solução para o desafio 
 
         media = ( A * 3.5 + B * 7.5)/11; 
 
