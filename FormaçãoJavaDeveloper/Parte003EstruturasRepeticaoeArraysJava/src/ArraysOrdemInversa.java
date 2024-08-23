@@ -1,4 +1,4 @@
-package Parte003EstruturasRepeticaoeArraysJava;
+package Parte003EstruturasRepeticaoeArraysJava.src;
 
 public class ArraysOrdemInversa {
     

@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.src;
 
 /* Sua tia Gertrudes é uma leitora assídua. E ela gostaria de ter
 um aplicativo que dissesse para ela, de acordo com o número de

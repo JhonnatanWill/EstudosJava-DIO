@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.src;
 
 /* A prefeitura de uma cidade A instalou uma câmera para verificar
 quem estava acima da velocidade permitida na rodovia da entrada da

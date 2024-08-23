@@ -1,4 +1,4 @@
-package Parte003EstruturasRepeticaoeArraysJava;
+package Parte003EstruturasRepeticaoeArraysJava.src;
 
 import java.util.Scanner;
 

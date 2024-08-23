@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.src;
 
 /* Você foi contratado para criar um gerenciador de pacotes.
 Porém, o que restou para você fazer foi o contador de porcentagem

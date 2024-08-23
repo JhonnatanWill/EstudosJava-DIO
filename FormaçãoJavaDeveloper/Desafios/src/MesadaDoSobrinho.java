@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.src;
 
 /* Seu sobrinho começou a ganhar mesada dos pais. No auge
 dos seus 8 anos recebendo 50 reais por mês, ele quer saber

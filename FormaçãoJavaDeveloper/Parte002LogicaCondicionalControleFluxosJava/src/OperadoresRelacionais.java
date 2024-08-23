@@ -1,4 +1,4 @@
-package Parte002LogicaCondicionalControleFluxosJava;
+package Parte002LogicaCondicionalControleFluxosJava.src;
 
 public class OperadoresRelacionais {
     

@@ -1,4 +1,4 @@
-package Parte004MetodosJava;
+package Parte004MetodosJava.src;
 
 public class Mensagem {
     

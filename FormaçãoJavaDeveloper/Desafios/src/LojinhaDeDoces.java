@@ -1,4 +1,4 @@
-package Desafios;
+package Desafios.src;
 
 /* Uma lojinha de doces tem muitos clientes por ser
 ao lado de uma escola. Para aumentar as vendas o dono
