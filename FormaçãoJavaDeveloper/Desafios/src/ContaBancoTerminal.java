@@ -45,14 +45,14 @@ public class ContaBancoTerminal {
 	public static void main(String[] args) {
 	 	Scanner scanner = new Scanner (System.in);
  
-		int numero;
-		String agencia = "067-8";
+		int agencia;
+		String conta = "067-8";
 		String nomeCliente = "JHONNATAN WILLIAN";
 		double saldo = 237.48;
 
 		System.out.println("Por favor, digite o número da Agência!");
- 		numero = scanner.nextInt();  
+ 		agencia = scanner.nextInt();  
  
- 		System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque!");
+ 		System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo " + saldo + " já está disponível para saque!");
 	}
 }
